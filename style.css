@@ -1,0 +1,17 @@
+/*
+Theme Name: Exemple
+Theme URI: http://localhost/wordpress/
+Author: Romica COBILEANSCHI
+Description: Mon premier thème !
+Requires at least: WordPress 5.6
+Version: 1.0
+*/
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
